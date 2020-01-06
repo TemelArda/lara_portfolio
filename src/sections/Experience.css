@@ -1,0 +1,112 @@
+.exp{
+    background-color: #F2D5CE;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 1.5em;
+    position: relative;
+}
+.expCard1{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+
+    margin-bottom: 2.0em;
+}
+.expCard2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.myCard{
+    position: relative;
+}
+
+.face{
+    width: 40vw;
+    height: 25vh;
+    cursor: pointer;
+    -webkit-transition: 0.5s ease-in;
+    transition: 0.5s;
+}
+.face.face1{
+    position: relative;
+    background: #F2D5CE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    box-shadow: 0 0 50px  rgba(0, 0, 0, 0.8);
+    transform: translateY(20vh);
+}
+.myCard:hover .face.face1{
+    transform: translateY(0);
+}
+.myCard .face.face1 .content{
+    opacity: 0.5;
+    font-weight: 100;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.myCard:hover .face.face2 .content{
+    opacity: 1;
+    color: white;
+}
+.myCard .face.face2 .content{
+    opacity: 0;
+    -webkit-transition: 0.6s ease-in;
+    transition: 0.6s ease-in;
+}
+.myCard:hover .face.face1 .content{
+    opacity: 1;
+    font-weight: 400;
+
+}
+.face.face2{
+    position: relative;
+    color: white;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+.face.face2 p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.7em;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+@media screen and (max-width:1024px){
+    .expCard1, .expCard2{
+        display: flex;
+        justify-content: center;
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+    .face.face1{
+        position: relative;
+        background: #F2D5CE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(70vh);
+    }
+    .face{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80vw;
+        height: 70vh;
+        cursor: pointer;
+    }
+}

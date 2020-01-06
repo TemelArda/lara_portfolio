@@ -1,0 +1,49 @@
+.education{
+    overflow: hidden;
+    background: -webkit-linear-gradient(rgba(142, 141, 138, 0.4), rgba(234, 231, 220, 0.2)), url('../images/bg1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F2D5CE;
+    font-family: 'Roboto Slab', serif;
+}
+
+.eduRow{
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+.eduCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    background-color: #262626;
+    border-radius: 10px;
+}
+
+.eduCard h1{
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+
+.cardText p{
+    font-size: 1.0em;
+    font-weight: 300;
+}
+.cardText hr{
+    border-color: #F2D5CE;
+    border-width: 2px;
+    border-radius: 15px;
+}
+
+.cardText {
+    line-height: 1.6;
+}
+@media screen and (max-width:900px){
+    .eduCard{
+        height: 80vh;
+    }
+}

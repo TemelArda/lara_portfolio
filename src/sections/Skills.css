@@ -1,0 +1,22 @@
+.skills{
+    overflow: hidden;
+    background: -webkit-linear-gradient(rgba(142, 141, 138, 0.4), rgba(234, 231, 220, 0.2)), url('../images/bg3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #F2D5CE;
+    font-family: 'Roboto Slab', serif;
+}
+
+.skills-content h1{
+    font-size: 2.0em;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.skill-content{
+    padding-top: 15px;
+    line-height: 2.0;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
