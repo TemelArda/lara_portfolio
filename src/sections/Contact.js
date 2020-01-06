@@ -24,7 +24,7 @@ class ContactMe extends React.Component{
                                 <p className='text-left'>Adress:</p>
                             </MDBCol>
                             <MDBCol>
-                                <p className='text-center'href='#'>Harvard Ave, Santa Clara CA 95051</p>
+                                <p className='text-center'href='#'>Harvard Ave, CA 95051</p>
                             </MDBCol>
                         </MDBRow>
                         <hr/>
