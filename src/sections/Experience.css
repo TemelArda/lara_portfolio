@@ -110,3 +110,14 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 1440px){
+    .face.face1{
+        height: 40vh;
+        transform: translateY(45vh);
+    }
+    .face{
+        height: 50vh;
+        cursor: pointer;
+    }
+}
