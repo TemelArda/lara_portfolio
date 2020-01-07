@@ -41,7 +41,7 @@ class EduCard extends React.Component{
     render(){
     return(
                
-            <MDBCol lg='3' className = 'eduCard d-flex m-4 z-depth-5'>
+            <MDBCol lg='3' className = 'eduCard z-depth-5'>
                     <MDBRow className='cardImage d-flex justify-content-center h-25 '>
                         <img src = {this.props.school.imgURL} className='h-100 mw-50'/>
                     </MDBRow>

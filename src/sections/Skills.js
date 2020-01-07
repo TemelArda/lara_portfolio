@@ -17,9 +17,10 @@ const BSkills={
 class Skil extends React.Component{
     render(){
         return(
-            <MDBRow className='skill-content d-flex mx-5 justify-content-around'>
-                <MDBCol lg='4' className='text-left'>
-                    <h1>Technichal Skills</h1>
+            <MDBRow className='skill-content d-flex mx-auto my-5 justify-content-center'>
+                <MDBCol lg='5' className='text-left'>
+                    <h1 className='skill-title'>Technichal Skills</h1>
+                    <hr className='skill-line'/>
                     <ul className='skill-list text-left'>
                         <li>{this.props.TechSkills.s1}</li>
                         <li>{this.props.TechSkills.s2}</li>
@@ -30,8 +31,9 @@ class Skil extends React.Component{
                         <li>{this.props.TechSkills.s7}</li>
                     </ul>
                 </MDBCol>
-                <MDBCol lg='4' className='text-left'>
-                    <h1>Business and Analytical Skills</h1>
+                <MDBCol lg='5' className='text-left'>
+                    <h1 className='skill-title'>Business and Analytical Skills</h1>
+                    <hr className='skill-line'/>
                     <ul className='skill-list text-left'>
                     <li>{this.props.BSkills.s1}</li>
                         <li>{this.props.BSkills.s2}</li>
@@ -47,7 +49,7 @@ class Skil extends React.Component{
 
 function Skills(){
     return(
-        <MDBContainer fluid className = 'skills exp p-5'>
+        <MDBContainer fluid className = 'skills exp px-5'>
           <Skil TechSkills = {TechSkills} BSkills={BSkills}/>  
         </MDBContainer>
     );

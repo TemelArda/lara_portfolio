@@ -9,14 +9,36 @@
     font-family: 'Roboto Slab', serif;
 }
 
-.skills-content h1{
-    font-size: 2.0em;
+.skill-title{
+    font-size: 1.5em;
     letter-spacing: 3px;
-    font-weight: bold;
+    
 }
 .skill-content{
     padding-top: 15px;
     line-height: 2.0;
     letter-spacing: 2px;
     font-weight: bold;
+}
+.skill-line{
+    opacity: 0;
+}
+
+@media screen and (max-width:900px){
+    .skill-title{
+        text-align: center;
+        font-size: 1.0em;
+        font-weight: 500;
+    }
+    .skill-list{
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+    .skill-line{
+        width: 80%;
+        opacity: 1;
+        border-width: 2px;
+        border-radius: 30px;
+        border-color: #F2D5CE;
+    }
 }
