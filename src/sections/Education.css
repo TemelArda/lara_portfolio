@@ -45,6 +45,7 @@
 @media screen and (max-width:900px){
     .eduCard{
         height: 80vh;
+        margin-top: 10px;
     }
 }
 @media screen and (max-width:1440px){
